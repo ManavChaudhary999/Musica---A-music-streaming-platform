@@ -5,7 +5,7 @@
     "sidebar header"
     "sidebar content"
     "footer footer";
-    grid-template-columns: minmax(200px, 300px) auto;
+    grid-template-columns: minmax(100px, 300px) 1fr;
     grid-template-rows: 73px 1fr 125px;
     height: 100vh;
 }

@@ -24,7 +24,8 @@ margin: 0;
 --font-bold: 700;
 
 --primary: hsla(42, 94%, 69%, 1);
---alt: hsla(178, 19%, 67%, 1);
+--primary-light: rgb(226, 206, 160);
+--secondary: hsla(178, 19%, 67%, 1);
 --light: hsla(56, 32%, 91%, 1);
 --dark: hsla(200, 9%, 13%, 1);
 --dark-alt: hsla(192, 9%, 11%, 1);
