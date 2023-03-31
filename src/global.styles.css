@@ -1,0 +1,76 @@
+@font-face {
+	font-family: 'gothic';
+  src: url('./assets/gothic.eot');
+	src: url('./assets/gothic.woff') format('woff'), 
+      url('./assets/gothic.ttf') format('truetype');
+}
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+/*
+2. Remove default margin
+*/
+* {
+margin: 0;
+
+--text-light: hsla(0, 0%, 100%, 0.87);
+--text-gray: hsl(189, 9%, 58%);
+
+--font-normal: 400;
+--font-bold: 700;
+
+--primary: hsla(42, 94%, 69%, 1);
+--alt: hsla(178, 19%, 67%, 1);
+--light: hsla(56, 32%, 91%, 1);
+--dark: hsla(200, 9%, 13%, 1);
+--dark-alt: hsla(192, 9%, 11%, 1);
+--temp: hsla(210, 7%, 22%, 0.37);
+}
+
+/*
+3. Allow percentage-based heights in the application
+*/
+html, body {
+height: 100%;
+}
+/*
+Typographic tweaks!
+4. Add accessible line-height
+5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'gothic';
+  background-color: var(--dark);
+  color: var(--light);
+}
+/*
+6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+display: block;
+max-width: 100%;
+}
+/*
+7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+font: inherit;
+}
+/*
+8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+overflow-wrap: break-word;
+}
+/*
+9. Create a root stacking context
+*/
+#root, #__next {
+isolation: isolate;
+}

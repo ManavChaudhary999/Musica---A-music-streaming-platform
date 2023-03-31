@@ -1,0 +1,52 @@
+.wrapper{ 
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 23px;
+}
+
+.logo {
+    width: 34px;
+    aspect-ratio: 1/1;
+}
+
+.nav {
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: var(--dark-alt);
+    border-radius: 32px;
+    list-style: none;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 15px;
+}
+
+.nav button {
+    background: red;
+    position: relative;
+    border: none;
+    outline: none;
+    color: var(--text-gray);
+    width: 120px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nav button span {
+    margin-left: 35px;
+    font-weight: var(--font-bold);
+    background-color: aqua;
+    display: inline;
+}
+
+.nav button svg {
+    position: absolute;
+}

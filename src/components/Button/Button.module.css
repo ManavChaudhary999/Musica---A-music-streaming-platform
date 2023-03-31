@@ -1,0 +1,47 @@
+.btn {
+    --primary-100: hsl(182, 73%, 42%);
+    --primary-200: hsl(183, 100%, 40%);
+    --primary-300: hsl(182, 69%, 57%);
+    --primary-500: hsl(188, 100%, 83%);
+    --primary-dark: hsl(187, 20%, 33%);
+
+    border: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, var(--primary-100) 0%, var(--primary-200) 100%);
+    color: white;
+    font-size: 15px;
+    font-weight: var(--font-normal);
+}
+
+.primary {
+    box-shadow: 0px 0px 10px 0.5px var(--primary-300);
+}
+.secondary {
+    background: none;
+    color: var(--primary-100);
+    border: 1px solid var(--primary-100);
+}
+
+.small {
+    width: 73px;
+    height: 28px;       
+    border-radius: 23px;
+    font-size: 12px;
+}
+.large {
+    width: 160px;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: var(--font-bold);
+}
+
+.round {
+    width: 50px;
+    height: 50px;
+    border-radius: 10000px;
+    font-size: 10px;
+    font-weight: var(--font-bold);
+    box-shadow: 0px 0px 2px var(--primary-200);
+}
